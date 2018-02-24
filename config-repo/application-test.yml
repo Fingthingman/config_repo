@@ -1,15 +1,4 @@
-server:
-  port: 2134
-eureka:
-  instance:
-    hostname: eureka-center-node2
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:
-      defaultZone: http://eureka-center-node1:2133/eureka/
-#  server:
-#    enable-self-preservation: false
+
 spring:
   application:
     name: eureka-center-test
